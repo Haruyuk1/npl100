@@ -3,6 +3,12 @@ import os
 
 
 def main(f: TextIOWrapper):
+    p = "パトカー"
+    t = "タクシー"
+    mixed = ""
+    for (c_p, c_t) in zip(p, t):
+        mixed = mixed + c_p + c_t
+    print(mixed)
     return
 
 

@@ -3,6 +3,8 @@ import os
 
 
 def main(f: TextIOWrapper):
+    concatinated = "パタトクカシーー"
+    print(concatinated[::2])
     return
 
 

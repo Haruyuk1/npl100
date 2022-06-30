@@ -1,8 +1,13 @@
 from io import TextIOWrapper
 import os
+import re
 
 
 def main(f: TextIOWrapper):
+    statement = "Now I need a drink, alcoholic of course, after the heavy lectures involving quantum mechanics."
+    word_lengths = list(map(lambda word: len(word), re.split("[¥ ,.]", statement)))
+    word_lengths = list(filter(lambda l: l>0, word_lengths))
+    print(word_lengths)
     return
 
 

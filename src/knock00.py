@@ -3,6 +3,9 @@ import os
 
 
 def main(f: TextIOWrapper):
+    stressed = "stressed"
+    reversed_stressed = stressed[::-1]
+    print(reversed_stressed)
     return
 
 
