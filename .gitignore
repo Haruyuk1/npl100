@@ -130,3 +130,9 @@ dmypy.json
 
 # vscode
 .vscode/
+
+# data
+data/
+
+# model
+result/knock52/
